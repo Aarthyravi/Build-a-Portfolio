@@ -5,7 +5,7 @@
    * This Udacity Project is the second project of Full Stack Web Developer's Course.
    * I have developed a responsive website that has Responsive images, descriptions and links to each of the portfolio projects.
      
- Design
+ ##Design
      
    1. It contains 4 Responsive images, h1&h2 Title Text, Logo, Regular Paragraphs.
    2. This site content works acroos all the devices like Desktop, Mobile(iphone5,Nexus5).Tablet(Apple ipad).   
