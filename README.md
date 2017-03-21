@@ -1,6 +1,6 @@
 # Build-a-Portfolio
  
- Intro to HTML,CSS and Responsive Design & Responsive Image
+ ##Intro to HTML,CSS and Responsive Design & Responsive Image
  
    * This Udacity Project is the second project of Full Stack Web Developer's Course.
    * I have developed a responsive website that has Responsive images, descriptions and links to each of the portfolio projects.
