@@ -12,3 +12,5 @@
    3. Viewport meta tag is included in HTML.
    4. HTML5 and CSS3 Design elements
    5. Bootstrap Responsive Framework    
+
+To view the site on github pages go to http://Aarthyravi.github.io/Build-a-Portfolio
