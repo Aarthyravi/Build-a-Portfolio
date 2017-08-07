@@ -71,6 +71,7 @@
         <h3 class = "text-uppercase">Tournament Results</h3>
         <a href ="https://github.com/Aarthyravi/Tournament_Results">View Source Code</a>
       </div>
+      <br><br>
       <div class="col-md-4">
           <picture>
             <source media="(min-width: 992px)" srcset="img/menu-380.png 1440w">
@@ -80,6 +81,16 @@
           <h3 class = "text-uppercase">Item catalog</h3>
           <a href = "https://github.com/Aarthyravi/Item-catalog">View Souce Code</a>
         </div>
+        <div class="col-md-4">
+            <picture>
+              <source media="(min-width: 992px)" srcset="img/map-380.png 1440w">
+              <source media="(min-width: 500px)" srcset="img/map-1000.png">
+              <img src="img/map-500.png" data-toggle="modal" data-target="#project5" alt="Neighborhood Map">
+            </picture>
+            <h3 class = "text-uppercase">Neighborhood Map</h3>
+            <a href = "https://github.com/Aarthyravi/neighborhood">View Souce Code</a>
+          </div>
+
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -87,8 +98,8 @@
                     <h4 class="modal-title" id="myModalLabel">Movie Trailer</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="img/movie-500.png" alt="Movie Trailer Image"><br>
-                    <p>You will write server-side code to store a list of your favorite movies,
+                    <img class="img-responsive" src="img/movie-380.png" alt="Movie Trailer Image" align = "middle"><br>
+                    <p>server-side code to store a list of your favorite movies,
                     including box art imagery and a movie trailer URL. You will then serve this data as
                     a web page allowing visitors to review their movies and watch the trailers.</p>
                 </div>
@@ -123,8 +134,8 @@
                 <h4 class="modal-title" id="myModalLabel2">Tournament Results</h4>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="img/tourna-500.png" alt="Tournament Results Image" align="middle"><br>
-                <p>you’ll be writing a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament.
+                <img class="img-responsive" src="img/tourna-380.png" alt="Tournament Results Image"><br>
+                <p>A Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament.
                 You will develop a database schema to store the game matches between players.
                 You will then write a Python module to rank the players and pair them up in matches in a tournament.</p>
             </div>
@@ -152,7 +163,28 @@
             </div>
         </div>
     </div>
-  </div>    
+  </div>
+  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel4">Nighbourhood Map</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="img/map-380.png" alt="Neighborhood Map"><br>
+                <p>A single-page application featuring a map of neighborhood. Google map loaded from Maps API.
+                    App display the locations by default when the page is loaded.
+                    Clicking a marker on the map open the information window (infowindow) about the location.
+                    Clicking a name in the list View open the information window(infowindow) for the asoociated marker.
+                    The list of locations can be filterable with a text input.Filtering the list also filters the markers on the map.
+                    Added functionality using third-party APIs to provide information when a map marker or list view entry is clicked. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
  </div>
 </div>
 </section>
